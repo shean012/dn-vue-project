@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import iconUrl from '../images/iowe.png'
 
 export default {
   data() {
@@ -23,8 +22,6 @@ export default {
       msg: 'hello! Wellcome to dn vue project',
       images: [
         { name: 12, url: '../images/vue.jpeg' },
-        { name: '23444', url: iconUrl },
-        { name: '121233', url: iconUrl },
       ],
     }
   },

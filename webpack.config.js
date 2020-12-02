@@ -31,6 +31,11 @@ module.exports = {
         use: "vue-loader",
       },
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         use: [
           {

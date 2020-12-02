@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Main from "./pages/index.vue"
+import Main from './pages/index.vue'
 
 export default {
   components: { Main },
@@ -13,10 +13,13 @@ export default {
     return {}
   },
   mounted() {
+    
+  },
+  methods: {
+    
   },
 }
 </script>
 
 <style lang="scss">
-
 </style>
